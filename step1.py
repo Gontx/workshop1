@@ -7,7 +7,11 @@ def calculate():
     - for subtraction
     x for multiplication
     / for division
+<<<<<<< HEAD
     mod for modulus
+=======
+    ^ for power
+>>>>>>> pow-operator
     ''')
 
     num_A = int(input('Enter your first number: '))
@@ -33,10 +37,17 @@ def calculate():
         print(num_A , '/' , num_B, '=')
         print(num_A / num_B)
 
+<<<<<<< HEAD
     #modulus
     elif operation == 'mod':
         print(num_A , '%' , num_B, '=')
         print(num_A % num_B)
+=======
+    #power
+    elif operation == '^':
+        print(num_A , '^' , num_B, '=')
+        print(num_A ** num_B)
+>>>>>>> pow-operator
 
     #no option in list chosen
     else:
