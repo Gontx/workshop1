@@ -7,6 +7,7 @@ def calculate():
     - for subtraction
     x for multiplication
     / for division
+    ^ for power
     ''')
 
     num_A = int(input('Enter your first number: '))
@@ -31,6 +32,11 @@ def calculate():
     elif operation == '/':
         print(num_A , '/' , num_B, '=')
         print(num_A / num_B)
+
+    #power
+    elif operation == '^':
+        print(num_A , '^' , num_B, '=')
+        print(num_A ** num_B)
 
     #no option in list chosen
     else:
